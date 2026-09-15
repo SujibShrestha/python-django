@@ -1,0 +1,11 @@
+body{
+    background-color: #701e1e;
+    color: #fff;
+}   
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
