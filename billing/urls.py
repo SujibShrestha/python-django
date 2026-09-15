@@ -24,4 +24,7 @@ urlpatterns = [
     path('about/',views.about, name='about'),
     path('contact/',views.contact, name='contact'),
     path('myapp/', include('myapp.urls')),  # Include the URLs from myapp
+
+
+    path("__reload__/", include("django_browser_reload.urls")),  # Add this line for django-browser-reload
 ]
